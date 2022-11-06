@@ -1,0 +1,42 @@
+Arguments: 
+  /home/dy369/.nvm/versions/node/v18.9.1/bin/node /snap/node/6895/bin/yarn.js add vite
+
+PATH: 
+  /home/dy369/.nvm/versions/node/v18.9.1/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/usr/local/go/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.9.1
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: connect EHOSTUNREACH 104.16.26.35:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1300:16)
+
+npm manifest: 
+  {
+    "name": "tailwind",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "start": "vite",
+      "build": "vite build"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "tailwindcss": "^2.2.16"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

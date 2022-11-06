@@ -4,13 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tailwind build src/style.css -o public/style.css"
+    "start": "vite",
+    "build": "vite build"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "tailwindcss": "^2.2.16"
+    "tailwindcss": "^2.2.16",
+    "vite": "^3.2.2"
   }
 }
